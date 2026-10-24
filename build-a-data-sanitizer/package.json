@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "data sanitizer",
   "license": "BSD-3-Clause",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "^5.2.1"
-  }
+    "express": "^5.3.0"
+  },
+  "devDependencies": {}
 }
