@@ -1,0 +1,20 @@
+[33mcommit 248d0e32108738e460fdbcb165414e50ba4d6426[m
+Author: PREM-0909 <premkumar090905@gmail.com>
+Date:   Sat Oct 24 11:17:22 2026 +0000
+
+    completed certification project of family watchlist api
+
+ build-a-family-movie-watchlist-api/.env                       |    3 [32m+[m[31m-[m
+ build-a-family-movie-watchlist-api/data/users.json            |   66 [32m+[m[31m-[m
+ build-a-family-movie-watchlist-api/data/watchlists.json       |  276 [32m+++++++[m
+ build-a-family-movie-watchlist-api/index.js                   |   43 [32m+[m[31m-[m
+ build-a-family-movie-watchlist-api/middleware/authenticate.js |   24 [32m+[m
+ build-a-family-movie-watchlist-api/middleware/authorize.js    |   10 [32m+[m
+ build-a-family-movie-watchlist-api/package-lock.json          | 2036 [32m+++++++++++++++++++++++++[m[31m-------------------------[m
+ build-a-family-movie-watchlist-api/package.json               |   36 [32m+[m[31m-[m
+ build-a-family-movie-watchlist-api/routes/authRoutes.js       |   32 [32m+[m
+ build-a-family-movie-watchlist-api/routes/watchlistRoute.js   |   66 [32m++[m
+ build-a-family-movie-watchlist-api/utils/blacklistedToken.js  |    9 [32m+[m
+ build-a-family-movie-watchlist-api/utils/db.js                |  192 [32m++[m[31m---[m
+ build-a-family-movie-watchlist-api/utils/jwt.js               |   13 [32m+[m
+ 13 files changed, 1620 insertions(+), 1186 deletions(-)
